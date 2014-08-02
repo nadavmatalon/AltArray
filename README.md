@@ -1,4 +1,5 @@
-##AltArry (enum_inject & recu_inject)
+AltArry (enum_inject & recu_inject)
+--------
 
 The AltArray class inherits from the Array class.
 
@@ -10,4 +11,4 @@ The two new methods differ in their code architechture: while the 'enum_inject' 
 
 Both methods were created according to the TDD methodology using Rspec for testing (tests file included in the repo).
 
-Code & tests written by: Nadav Matalon @ Makers Academy (May 2014 Cohort)
+Code & tests written by: Nadav Matalon @ Makers Academy (May 2014;)
