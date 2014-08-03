@@ -1,14 +1,13 @@
-AltArry (enum_inject & recu_inject)
---------
+<h2>AltArry Class</h2> 
 
-The AltArray class inherits from the Array class.
+<h3>#enum_inject & #recu_inject</h3>
 
-It is a basically wrapper class for two new methods: enum_inject & recu_inject.
+<p>The AltArray class inherits from the Array class.</p>
 
-These methods seek to offer a ruby-based alternative with the same functionality as the original inject() method.
+<p>It is a basically wrapper class for two new methods: enum_inject & recu_inject.</p>
 
-The two new methods differ in their code architechture: while the 'enum_inject' method is based on ennumeration, the 'recu_inject' method is based or recursion.
+<p>These methods seek to offer a ruby-based alternative with the same functionality as the original inject() method.</p>
 
-Both methods were created according to the TDD methodology using Rspec for testing (tests file included in the repo).
+<p>The two new methods differ in their code architechture: while the 'enum_inject' method is based on ennumeration, the 'recu_inject' method is based or recursion.</p>
 
-Code & tests written by: Nadav Matalon @ Makers Academy (May 2014;)
+<p>Both methods were created according to the TDD methodology using Rspec for testing (Rspec tests file included in the repo).</p>
