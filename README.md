@@ -1,4 +1,4 @@
-#AltArray: enum_inject() & recu_inject()
+#AltArray: enum_inject &amp; recu_inject
 
 ##Makers Academy | Week 5 | Challenge | Part I
 
