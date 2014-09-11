@@ -1,13 +1,53 @@
-<h2>AltArry Class</h2> 
+#AltArray: enum_inject() & recu_inject()
 
-<h3>#enum_inject & #recu_inject</h3>
+##Makers Academy | Week 5 | Challenge | Part I
 
-<p>The AltArray class inherits from the Array class.</p>
+##Table of Contents
 
-<p>It is a basically wrapper class for two new methods: enum_inject & recu_inject.</p>
+* [General Description](#general-description)
+* [Guidelines](#guidelines)
+* [Testing](#testing)
 
-<p>These methods seek to offer a ruby-based alternative with the same functionality as the original inject() method.</p>
 
-<p>The two new methods differ in their code architechture: while the 'enum_inject' method is based on ennumeration, the 'recu_inject' method is based or recursion.</p>
+##General Description
 
-<p>Both methods were created according to the TDD methodology using Rspec for testing (Rspec tests file included in the repo).</p>
+This repo contians the answer to __Week 5 Friday Challange (Part I)__ of the course 
+at [Makers Academy](http://www.makersacademy.com/).
+
+This challange consisted of writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
+equivallent to the [__inject()__](http://ruby-doc.org/core-2.1.2/Enumerable.html) 
+method.
+
+The two methods offered here, __enum_inject__ and __recu_inject__, were created with 
+[TDD](http://en.wikipedia.org/wiki/Test-driven_development) 
+methodology (tests written with [Rspec](http://rspec.info/)).
+
+The two said methods were created inside a new wrapper class: __AltArray__ which inherits 
+from the __Array__ class.
+
+The methods themselves differ in their code architechture: __enum_inject()__ 
+is based on __ennumeration__, whereas the __recu_inject()__ is based or recursion.
+
+
+##Guidelines
+
+* Reopen the Array class or subclass it
+* Rewrite the inject() method. Write a test for it first. 
+* Don't worry about returning an enumerator, assume a block is always given
+* Name your method differently (that is, not inject() or subclass Array) 
+because rspec uses inject() internally, so the tests will fail with weird 
+messages unless your implementation of inject is perfect
+* If you would like a challenge, rewrite inject using two approaches: using iterators 
+and using recursion
+
+
+##Testing
+
+Tests were written with [Rspec](http://rspec.info/) (3.0.4).
+
+To run the test in terminal: 
+
+```bash
+$> cd alt_array
+$> rspec
+```
