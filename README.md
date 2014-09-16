@@ -11,7 +11,7 @@
 
 ##General Description
 
-This repo contians the answer to __Week 5 Friday Challange (Part I)__ of the course 
+This repo contians my answer to __Week 5 Friday Challange (Part I)__ of the course 
 at [Makers Academy](http://www.makersacademy.com/).
 
 This challange consisted of writing an effective [Ruby](https://www.ruby-lang.org/en/)-based 
@@ -32,11 +32,11 @@ is based on __ennumeration__, whereas the __recu_inject()__ is based or recursio
 ##Guidelines
 
 * Reopen the Array class or subclass it
-* Rewrite the inject() method. Write a test for it first. 
+* Rewrite the __inject()__ method. Write a test for it first. 
 * Don't worry about returning an enumerator, assume a block is always given
 * Name your method differently (that is, not inject() or subclass Array) 
-  because rspec uses inject() internally, so the tests will fail with weird 
-  messages unless your implementation of inject is perfect
+  because [Rspec](http://rspec.info/) uses __inject()__ internally, so the tests 
+  will fail with weird messages unless your implementation of inject is perfect
 * If you would like a challenge, rewrite inject using two approaches: using iterators 
   and using recursion
 
