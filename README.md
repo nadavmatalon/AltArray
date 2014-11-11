@@ -2,6 +2,8 @@
 
 ##Makers Academy | Week 5 | Challenge | Part I
 
+[![Code Climate](https://codeclimate.com/github/nadavmatalon/alt_array/badges/gpa.svg)](https://codeclimate.com/github/nadavmatalon/alt_array)
+
 ##Table of Contents
 
 * [General Description](#general-description)
