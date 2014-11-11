@@ -6,7 +6,9 @@
 
 * [General Description](#general-description)
 * [Guidelines](#guidelines)
+* [How to Install](#how-to-install)
 * [Testing](#testing)
+* [License](#license)
 
 
 ##General Description
@@ -41,9 +43,20 @@ is based on __ennumeration__, whereas the __recu_inject()__ is based or recursio
   and using recursion
 
 
+##How to Install
+
+To install and run locally, clone the repo and run: 
+
+```bash
+$> cd alt_array
+$> irb
+>> require './lib/AltArray.rb'
+```
+
+
 ##Testing
 
-Tests were written with [Rspec](http://rspec.info/) (3.0.4).
+Tests were written with [Rspec](http://rspec.info/) (3.1.0).
 
 To run the test in terminal: 
 
@@ -51,3 +64,9 @@ To run the test in terminal:
 $> cd alt_array
 $> rspec
 ```
+
+
+##License
+
+<p>Released under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>
+
