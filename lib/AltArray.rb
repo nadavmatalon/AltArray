@@ -8,8 +8,8 @@ class AltArray < Array
 	end
 
 	def recu_inject(value = self[0])
-		for i in 0..(self.count-1) do
-			value = yield value, self[i]
+		for index in 0..(self.count-1) do
+			value = yield value, self[index]
 		end
 		value
 	end
